@@ -1,0 +1,3 @@
+import pandas as pd
+df=pd.read_csv("human_blood_test_practice.csv")
+print(df)

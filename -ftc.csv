@@ -1,0 +1,13 @@
+sample,species,treatment,gene_A,gene_B,gene_C,gene_D,growth_OD600
+S1,E_coli,control,3.2,2.1,7.8,12.1,0.91
+S2,E_coli,control,3.8,2.5,8.2,11.7,0.88
+S3,E_coli,control,3.5,2.3,7.5,12.5,0.93
+S4,E_coli,control,4.1,2.8,8.6,12,0.9
+S5,E_coli,drug1,8.7,5.6,6.9,13.2,0.72
+S6,E_coli,drug1,9.4,5.9,6.5,13.8,0.69
+S7,E_coli,drug1,8.9,6.2,7.1,13.5,0.75
+S8,E_coli,drug1,9.8,5.4,6.7,14.1,0.71
+S9,E_coli,drug2,15.2,10.8,4.2,16.5,0.51
+S10,E_coli,drug2,14.7,11.4,4.8,17.1,0.48
+S11,E_coli,drug2,16.1,10.2,4.5,16.8,0.54
+S12,E_coli,drug2,15.6,11.1,4.1,17.4,0.5

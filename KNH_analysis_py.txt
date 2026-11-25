@@ -1,0 +1,22 @@
+import pandas as pd
+df=pd.read_csv("KNH_synthetic_biological_data_10000.csv")
+print(df)
+df.shape
+df.describe()
+print(df.info())
+print(df.dtypes)
+print(df["treatment"])
+print(df["sex"].count())
+print(df["county"])
+print(df["blood_group"])
+print(df["age"]=="72")
+print(df["disease"])
+print(df["age"].mean())
+sickle=df[df["disease"]=="Sickle Cell Disease"]
+print(sickle)
+no_diabetes=(df["disease"]=="Diabetes").sum()
+print(no_diabetes)
+print(df["disease"].value_counts())
+print(df["sex"].value_counts())
+print(df["blood_group"].value_counts)
+print(df["county"].value_counts())
